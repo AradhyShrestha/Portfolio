@@ -35,7 +35,7 @@ mongoose.connect(process.env.MONGO_URI, {
 app.get('/health', (req, res) => res.send('OK'));
 
 // Form submit route
-app.post('/submit', async (req, res) => {
+app.post('/api/submit', async (req, res) => {
   try {
     const { name, email, subject, message } = req.body;
 
