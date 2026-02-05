@@ -1,16 +1,31 @@
 const swiper = new Swiper('.myswiper', {
-  // Optional parameters
   direction: 'vertical',
   loop: true,
+  spaceBetween: 20,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.custom-next',
     prevEl: '.custom-prev',
   },
+
+  // ✅ Responsive behavior
+  breakpoints: {
+    0: {
+      direction: 'horizontal',
+      slidesPerView: 1,
+    },
+    768: {
+      direction: 'horizontal',
+      slidesPerView: 2,
+    },
+    1024: {
+      direction: 'vertical',
+      slidesPerView: 3,
+    }
+  }
 });
