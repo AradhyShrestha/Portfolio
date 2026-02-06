@@ -230,7 +230,7 @@
 
 
 
-new Swiper('.myswiper', {
+new Swiper('.mySwiper', {
   direction: 'vertical',
   loop: true,
 
