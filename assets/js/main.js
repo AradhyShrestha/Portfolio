@@ -231,7 +231,7 @@
 
 
 new Swiper('.mySwiper', {
-  direction: 'vertical',
+  direction: 'horizontal',
   loop: true,
 
   pagination: {
@@ -254,7 +254,7 @@ new Swiper('.mySwiper', {
       slidesPerView: 2,
     },
     1024: {
-      direction: 'vertical',
+      direction: 'horizontal',
       slidesPerView: 3,
     }
   }
