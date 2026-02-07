@@ -228,35 +228,3 @@
 
 })();
 
-
-
-new Swiper('.mySwiper', {
-  direction: 'horizontal',
-  loop: true,
-
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-
-  navigation: {
-    nextEl: '.custom-next',
-    prevEl: '.custom-prev',
-  },
-
-  breakpoints: {
-    0: {
-      direction: 'horizontal',
-      slidesPerView: 1,
-    },
-    768: {
-      direction: 'horizontal',
-      slidesPerView: 2,
-    },
-    1024: {
-      direction: 'horizontal',
-      slidesPerView: 3,
-    }
-  }
-});
-
