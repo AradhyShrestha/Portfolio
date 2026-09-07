@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Aradhy Shrestha | Developer Portfolio",
   description: "Explore Aradhy Shrestha's portfolio featuring modern web development, creative digital experiences, projects, and technologies.",
+  other: {
+    "p:domain_verify": "269ea322a1cd524e6d2e7bfc213be362",
+  },
 };
 
 export default function RootLayout({ children }) {
