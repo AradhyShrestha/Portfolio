@@ -185,6 +185,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#050509] text-white">
+    <meta name="p:domain_verify" content="269ea322a1cd524e6d2e7bfc213be362"/>
 
       {/* ===================================================== */}
       {/* HERO + NAV */}
